@@ -1,0 +1,150 @@
+// base color,modified by tom
+$blue: #00a8c3;
+$light-blue: #b3d8ff;
+$red: #f56c6c;
+$green: #88e05d;
+$yellow: #e6a23c;
+$black: #333333;
+$purple:#800080;
+
+$text: white;
+
+$commonColor: #009289;
+
+@for $i from 0 through 50 {
+  .m-#{$i * 2} {
+    margin: (2px * $i) !important;
+  }
+}
+@for $i from 0 through 15 {
+  .m-t-#{$i * 2} {
+    margin-top: (2px * $i) !important;
+  }
+}
+@for $i from 0 through 15 {
+  .m-b-#{$i * 2} {
+    margin-bottom: (2px * $i) !important;
+  }
+}
+@for $i from 0 through 15 {
+  .m-l-#{$i * 2} {
+    margin-left: (2px * $i) !important;
+  }
+}
+@for $i from 0 through 15 {
+  .m-r-#{$i * 2} {
+    margin-right: (2px * $i) !important;
+  }
+}
+@for $i from 0 through 50 {
+  .p-#{$i * 2} {
+    padding: (2px * $i) !important;
+  }
+}
+@for $i from 0 through 15 {
+  .p-l-#{$i * 2} {
+    padding-left: (2px * $i) !important;
+  }
+}
+@for $i from 0 through 15 {
+  .p-r-#{$i * 2} {
+    padding-right: (2px * $i) !important;
+  }
+}
+@for $i from 0 through 15 {
+  .p-t-#{$i * 2} {
+    padding-top: (2px * $i) !important;
+  }
+}
+@for $i from 12 through 35 {
+  .f-#{$i} {
+    font-size: (1px * $i) !important;
+  }
+}
+
+@for $i from 8 through 35 {
+  .w-#{$i*10} {
+    width: (10px * $i) !important;
+  }
+}
+
+@for $i from 1 through 10 {
+  .h-#{$i*80} {
+    height: (80px * $i) !important;
+  }
+}
+
+// 文字对齐方式
+.text-c {
+  text-align: center;
+}
+.text-l {
+  text-align: left;
+}
+.text-r {
+  text-align: right;
+}
+.font-bold {
+  font-weight: bold;
+}
+// 浮动
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.f-c {
+  clear: both;
+}
+// 全局文本颜色
+.blueColor {
+  color: $blue;
+}
+.redColor {
+  color: $red;
+}
+.greenColor {
+  color: $green;
+}
+.yellowColor {
+  color: $yellow;
+}
+.blackColor {
+  color: $black;
+}
+.purpleColor {
+  color: $purple;
+}
+.greyColor {
+  color: #c0c4cc;
+}
+.commonColor {
+  color: $commonColor;
+}
+
+
+.n-button + .n-button {
+  margin-left: 10px;
+}
+
+
+// tab滑动问题
+.inline-block {
+  display: inline-block;
+}
+
+// 鼠标滑过手型
+.cursor {
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
